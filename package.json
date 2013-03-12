@@ -2,14 +2,11 @@
   "name": "parisjs-contest",
   "version": "0.0.1",
   "description": "Reply to a tweet with the good answer",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": "",
-  "author": "",
+  "author": "François de Metz <francois@2metz.fr>",
   "license": "BSD",
   "dependencies": {
-    "ntwitter": "git+https://github.com/francois2metz/ntwitter.git"
+    "ntwitter": "git+https://github.com/francois2metz/ntwitter.git",
+    "underscore": ""
   }
 }

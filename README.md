@@ -1,4 +1,4 @@
-# Contest 
+# Contest
 
 Twitter contest script for Paris.js.
 
@@ -8,7 +8,7 @@ Twitter contest script for Paris.js.
 
 ## Configuration
 
-Create a *config.json* with: 
+Create a *config.json* with:
 
 ```javascript
 {
@@ -21,7 +21,13 @@ Create a *config.json* with:
 
 ## Usage
 
-    node index.js
+Get all twitter participants:
+
+    node answers.js
+
+Edit the participants.csv.
+
+    node winner.js
 
 ## License
 
