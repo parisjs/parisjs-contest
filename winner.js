@@ -11,6 +11,3 @@ var winner = _(content.split("\n")).chain().rest().shuffle().first().value();
 _.delay(function() {
   console.log(winner);
 }, 1000);
-
-
-
