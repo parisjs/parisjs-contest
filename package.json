@@ -10,6 +10,6 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "ntwitter": "0.5.x"
+    "ntwitter": "git+https://github.com/francois2metz/ntwitter.git"
   }
 }
