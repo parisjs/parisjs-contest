@@ -1,6 +1,12 @@
 var twitter = require('ntwitter');
 var fs = require('fs');
 
+if (!fs.existsSync("config.json")) {
+    console.error("Config file [config.json] missing!");
+    console.error("Did you forget to run `make decrypt_conf`?");
+    process.exit(1);
+}
+
 var twit = new twitter(JSON.parse(fs.readFileSync('config.json')));
 
 var myTweetId = "311056119210602496";
