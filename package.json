@@ -1,0 +1,15 @@
+{
+  "name": "parisjs-contest",
+  "version": "0.0.1",
+  "description": "Reply to a tweet with the good answer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "ntwitter": "0.5.x"
+  }
+}
